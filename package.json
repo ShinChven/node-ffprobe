@@ -1,0 +1,29 @@
+{
+  "name": "node-ffprobe",
+  "version": "0.0.0",
+  "description": "Node wrapper for ffprobe",
+  "main": "lib/index.js",
+  "scripts": {
+    "compile": "shx rm -rf lib && tsc",
+    "prepublish": "npm run compile"
+  },
+  "keywords": [],
+  "author": {
+    "url": "https://github.com/ShinChven",
+    "name": "ShinChven ZHANG",
+    "email": "shinchven@gmail.com"
+  },
+  "repository": {
+    "url": "https://github.com/ShinChven/node-ffprobe.git"
+  },
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/mocha": "^10.0.0",
+    "mocha": "^10.1.0",
+    "ts-mocha": "^10.0.0",
+    "@types/node": "^16.18.3",
+    "shx": "^0.3.4",
+    "typescript": "^4.8.4"
+  }
+}

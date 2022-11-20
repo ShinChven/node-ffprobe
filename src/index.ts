@@ -12,3 +12,5 @@ const ffprobe = async (filepath: string) => {
     });
   });
 }
+
+export default ffprobe;
